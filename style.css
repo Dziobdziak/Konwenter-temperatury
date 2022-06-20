@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 47, 57);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.mainBox{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fahrToCelc{
+    color: white;
+}
+.degrees{
+    outline: none;
+    background: white;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 6px;
+}
+.buttons{
+    width: 60%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 25%;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 10px 3px 30px -10px rgba(255, 255, 255, 1);
+}
+.secondPara{
+    height: 5%;
+}
